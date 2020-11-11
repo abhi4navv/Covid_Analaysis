@@ -1,0 +1,63 @@
+
+.chngbuttons {
+    background: none!important;
+    border: none;
+    margin-left: 40px ;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    
+  }
+  .chngbuttons:hover{
+    background-color: #1f90bb;
+    background-position: 0 -15px;
+  }
+  .cmppopup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  
+  
+  .modal-content {
+    /* 80% of window height */
+    height: 500px;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+  .cmppopupcontent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    pointer-events: auto;
+    background-color: #1a0225;
+    background-clip: padding-box;
+    border: 1px solid rgb(251 248 248);
+    border-radius: 1.3rem;
+    outline: 0;
+    opacity: 0.8;
+  }
+  .form-control{
+    width: 60%;
+    margin: 2px;
+    display: 'inline';
+  }
