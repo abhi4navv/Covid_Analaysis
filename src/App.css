@@ -14,16 +14,29 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #534292;
+  min-height: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
+  text-decoration: underline;
 }
-
+.footer {
+  background-color: #534292;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px );
+  color: #cfd7e6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  margin-top: 43px;
+}
 .App-link {
   color: #61dafb;
 }
