@@ -28,5 +28,5 @@ export class Maps extends React.Component {
   }
   Maps.defaultProps = googleMapStyles;
   export default GoogleApiWrapper({
-    apiKey: 'AIzaSyDUCMYjr2ZVRP2vUzLgUG7oOkK3yjqND_Y'
+    apiKey: ''
   })(Maps);
